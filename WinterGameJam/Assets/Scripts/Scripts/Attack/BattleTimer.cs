@@ -11,7 +11,7 @@ public class BattleTimer : MonoBehaviour
 
     public Timer Timer  => _timer;
 
-    private void Start()
+    private void Awake()
     {
         _timer = new Timer(_startTime, _maxTime);
     }

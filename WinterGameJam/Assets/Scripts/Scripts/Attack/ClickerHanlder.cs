@@ -9,7 +9,8 @@ public class ClickerHanlder : MonoBehaviour
     [SerializeField] private float _balanceValue = 5;
     [SerializeField] private float _additionalClick = 0.24f;
 
-    private bool _isWorking = true;
+    private bool _isWorking = false;
+    private bool _isStartClick = true;
 
     private float _rate = 0.5f;
     private float _minRate = 0;
@@ -24,6 +25,8 @@ public class ClickerHanlder : MonoBehaviour
 
     public event Action OnBattleOver;
 
+    public event Action OnClick;
+
     private void Start()
     {
         _timer = _battleTimer.Timer;
@@ -31,6 +34,12 @@ public class ClickerHanlder : MonoBehaviour
 
     private void Update()
     {
+        if (_isStartClick && IsClicked())
+        {
+            _isWorking = true;
+            _isStartClick = false;
+        }
+
         if (_isWorking)
         {
             if (IsRateLowerZero() || _timer.IsOver || IsRateBiggerMaxValue())
@@ -51,11 +60,14 @@ public class ClickerHanlder : MonoBehaviour
 
     public bool IsRateBiggerMaxValue() => _rate > _maxRate;
 
+    private bool IsClicked() => Input.GetMouseButtonDown(0);
+
     private void Click()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (IsClicked())
         {
             _rate += _additionalClick;
+            OnClick?.Invoke();
         }
     }
 
