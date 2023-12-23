@@ -1093,7 +1093,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: -477.34253
-    y: -447.28433
+    y: -445.85577
     width: 78.571434
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1209,14 +1209,14 @@ MonoBehaviour:
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: b7975204f849c034fa19c5900cbc2a03, type: 3}
   offset: 0
-  fromPosition: {fileID: 906928316}
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 1645478553}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 1
+  move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!1 &1531605560
@@ -1274,8 +1274,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1531605563}
-  selectedCommands:
-  - {fileID: 1531605581}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
