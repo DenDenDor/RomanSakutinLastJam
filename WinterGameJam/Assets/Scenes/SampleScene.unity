@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: "\u041C\u0443\u0436\u0438\u043A"
   nameColor: {r: 0.9056604, g: 0.12388753, b: 0.12388753, a: 1}
-  soundEffect: {fileID: 0}
+  soundEffect: {fileID: 8300000, guid: f326b8241353c064ebddcbe1ec5a0467, type: 3}
   portraits:
   - {fileID: 21300000, guid: 9b2d53d16365a1b42bc49dbd5c3a5b39, type: 3}
   portraitsFace: 0
@@ -221,7 +221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: "\u0412\u043E\u0432\u0430 \u0410\u0434\u0438\u0434\u0430\u0441"
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  soundEffect: {fileID: 8300000, guid: e0c1599f89186c74a8d4bb2cb0be09d7, type: 3}
+  soundEffect: {fileID: 8300000, guid: f326b8241353c064ebddcbe1ec5a0467, type: 3}
   portraits:
   - {fileID: 21300000, guid: 747aaba59d399f24b82cfcc98f846ebc, type: 3}
   - {fileID: 21300000, guid: b5e652190d81daf4d8be508b202b24b7, type: 3}
@@ -1728,7 +1728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: "\u041C\u0430\u0440\u0430\u0442"
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  soundEffect: {fileID: 8300000, guid: e0c1599f89186c74a8d4bb2cb0be09d7, type: 3}
+  soundEffect: {fileID: 8300000, guid: f326b8241353c064ebddcbe1ec5a0467, type: 3}
   portraits:
   - {fileID: 21300000, guid: deff1e90fb6474245bba3f0efd384eaf, type: 3}
   - {fileID: 21300000, guid: 7b67636811813ea4fa16a7587dc706a2, type: 3}
@@ -2397,11 +2397,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 417.53735, y: 624.63367}
+  scrollPos: {x: 478.02667, y: 614.78784}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.94000006
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2409,9 +2409,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531605563}
-  selectedCommands:
-  - {fileID: 1531605602}
+  - {fileID: 1531605599}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -2439,7 +2438,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -186.53996
     y: -460.3548
-    width: 124
+    width: 127.65957
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2865,9 +2864,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -165.53735
-    y: -547.63367
-    width: 77
+    x: -166.60118
+    y: -548.697
+    width: 78.723404
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3550,7 +3549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Character Name
   nameColor: {r: 1, g: 1, b: 1, a: 1}
-  soundEffect: {fileID: 8300000, guid: e0c1599f89186c74a8d4bb2cb0be09d7, type: 3}
+  soundEffect: {fileID: 8300000, guid: f326b8241353c064ebddcbe1ec5a0467, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 1344474272}
