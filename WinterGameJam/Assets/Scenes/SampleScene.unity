@@ -381,7 +381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1480839111}
+  selectedFlowchart: {fileID: 1531605561}
 --- !u!4 &268585283
 Transform:
   m_ObjectHideFlags: 1
@@ -1052,11 +1052,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 813.41516, y: 717.7517}
+  scrollPos: {x: 825.6966, y: 728.3061}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.6999998
+  zoom: 0.66999984
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1094,7 +1094,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -477.34253
     y: -445.85577
-    width: 78.571434
+    width: 78.358215
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1274,7 +1274,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1531605563}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1531605574}
   variables: []
   description: 
   stepPause: 0
@@ -1430,7 +1431,7 @@ MonoBehaviour:
   description: 
   character: {fileID: 89247655}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: faf934c5badb7d54e948b6a97f913baa, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
