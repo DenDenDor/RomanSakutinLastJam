@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 20a06a133ef34f94fab094b171793064
+guid: ded39932eb5f7724c82f4bfe4fcc4a52
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - m_Agit Prop Medium
+  - Pobeda
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
