@@ -9,7 +9,9 @@ public class EnderDialogue : MonoBehaviour
     [SerializeField] private Flowchart _startFlowchart;
 
     [SerializeField] private float _waitTime;
+    [SerializeField] private int _countOfMoves = 2;
     private bool _isWorking = false;
+    private int _countOfDialogue;
 
     public event Action OnDialogueEnd;
 
@@ -22,10 +24,14 @@ public class EnderDialogue : MonoBehaviour
     {
         if (_isWorking)
         {
-            if (_startFlowchart.SelectedBlock.IsExecuting() == false)
+            if (_startFlowchart.SelectedBlock.IsExecuting())
             {
-                OnDialogueEnd?.Invoke();
-                _isWorking = false;
+                _countOfDialogue++;
+                if (_countOfDialogue == _countOfMoves)
+                {
+                    OnDialogueEnd?.Invoke();
+                    _isWorking = false;
+                }
             }
         }
     }
