@@ -18,7 +18,7 @@ public class TabEffect : MonoBehaviour
     {
         Vector3 mousePosition = _camera.ScreenToWorldPoint(Input.mousePosition);
         ParticleSystem particleSystem = Instantiate(_particleSystem, mousePosition, Quaternion.identity);
-        Destroy(particleSystem, _destroyTime);
+        Destroy(particleSystem.gameObject, _destroyTime);
     }
 
     private void OnDisable()
