@@ -1027,10 +1027,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _mainCamera: {fileID: 519420031}
   _battleCamera: {fileID: 482430131}
+  blockRef:
+    block: {fileID: 1480839113}
   _waitTime: 1
   _enderDialogue: {fileID: 920366092}
   _battle: {fileID: 841278351}
   _dialogue: {fileID: 1636646372}
+  _clickerHanlder: {fileID: 952753310}
 --- !u!114 &920366092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,6 +1048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _startFlowchart: {fileID: 1480839111}
   _waitTime: 3
+  _countOfMoves: 2
 --- !u!4 &920366093
 Transform:
   m_ObjectHideFlags: 0
@@ -2738,7 +2742,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 525.80115, y: 768.59705}
+  scrollPos: {x: 541.4951, y: 761.4774}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2750,7 +2754,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531605599}
+  - {fileID: 1531605563}
   selectedCommands: []
   variables: []
   description: 
@@ -2777,8 +2781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -188.13997
-    y: -460.3548
+    x: -158.53996
+    y: -463.5548
     width: 126
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}

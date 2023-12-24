@@ -8,7 +8,7 @@ public class StarterAttack : MonoBehaviour
 {
     [SerializeField] private Camera _mainCamera;
     [SerializeField] private Camera _battleCamera;
-    [SerializeField] private Flowchart _nextFlowchart;
+    public BlockReference blockRef;
     [SerializeField] private float _waitTime = 1;
     [SerializeField] private EnderDialogue _enderDialogue;
     [SerializeField] private GameObject _battle;
@@ -23,7 +23,7 @@ public class StarterAttack : MonoBehaviour
     private void TurnOnDialogue()
     {
         ChangeActive(false);
-        _nextFlowchart.ExecuteBlock("Start");
+        blockRef.Execute();
     }
 
     private void TurnOffDialogue()
