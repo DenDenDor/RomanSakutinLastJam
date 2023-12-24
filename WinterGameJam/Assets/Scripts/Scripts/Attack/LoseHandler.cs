@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LoseHandler : MonoBehaviour
 {
-    private float _startTime;
+    private float _startTime = 1;
     [SerializeField] private float _maxTime = 1.5f;
 
     [SerializeField] private AnimationCurve _curve;
