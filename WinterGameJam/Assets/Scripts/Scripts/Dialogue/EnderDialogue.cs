@@ -24,8 +24,9 @@ public class EnderDialogue : MonoBehaviour
     {
         if (_isWorking)
         {
-            if (_startFlowchart.SelectedBlock.IsExecuting())
+            if (_startFlowchart.SelectedBlock.IsExecuting() == false)
             {
+                Debug.Log("Hello World");
                 _countOfDialogue++;
                 if (_countOfDialogue == _countOfMoves)
                 {
