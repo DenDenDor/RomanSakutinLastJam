@@ -160,6 +160,11 @@ namespace Fungus
             {
                 ParentBlock.JumpToCommandIndex = nextCommandIndex;
             }
+
+            if (true)
+            {
+
+            }
         }
 
         /// <summary>
