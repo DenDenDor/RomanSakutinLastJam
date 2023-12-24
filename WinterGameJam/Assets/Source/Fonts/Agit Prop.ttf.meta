@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4b2da06beab9c7140af581e755cbf7c9
+guid: 20a06a133ef34f94fab094b171793064
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Stig
+  - m_Agit Prop Medium
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
