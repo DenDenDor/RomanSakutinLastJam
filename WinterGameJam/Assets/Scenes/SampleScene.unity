@@ -2408,9 +2408,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1531605563}
+  - {fileID: 1531605599}
   selectedCommands:
-  - {fileID: 1531605567}
+  - {fileID: 1531605595}
   variables: []
   description: 
   stepPause: 0
@@ -2714,7 +2714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 31
   indentLevel: 0
-  storyText: "\u041F\u0415\u0420\u0415\u0423\u041B\u041E\u041A \u0412 \u041A\u0410\u0417\u0410\u041D\u0418"
+  storyText: "\u041A\u0410\u0417\u0410\u041D\u042C"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3107,7 +3107,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 019013364a923e340a2a60beaffeeb0a, type: 3}
-    m_FontSize: 55
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
