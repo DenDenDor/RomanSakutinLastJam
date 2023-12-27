@@ -34,6 +34,7 @@ public class ClickerHanlder : MonoBehaviour
 
     private void Update()
     {
+        print(_rate);
         if (_isStartClick && IsClicked())
         {
             _isWorking = true;

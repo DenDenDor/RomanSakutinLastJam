@@ -22,8 +22,8 @@ public class StarterAttack : MonoBehaviour
     }
     private void TurnOnDialogue()
     {
-        ChangeActive(false);
-        _nextFlowchart.ExecuteBlock("Start");
+        //ChangeActive(false);
+        //_nextFlowchart.ExecuteBlock("DialogWithYellow");
     }
 
     private void TurnOffDialogue()
